@@ -1,7 +1,6 @@
 clear all
 clc
 size = [7 5];
-format short E
 varNames = {'h','n','I','Error','e_2h/e_h'}; %Size of table
 varTypes = {'double','double','double','double','double'}; %Table column names
 T2 = table('Size',size,'VariableTypes',varTypes,'VariableNames',varNames);
